@@ -1,14 +1,11 @@
+SET GLOBAL log_bin_trust_function_creators = 1;
 /*
 PARTE 02.
 2. La Creación de procesos almacenados y triggers para mantener actualizada la base de datos.
-   El script puede ejecutarse por completo en una solo ejecución sin embargo para poder revisar cada proceso se recomienda ejecutarse por pasos.
-   Fuente de Información: https://www.udemy.com/course/sql-para-analisis-de-datos-de-cero-a-experto/learn/lecture/40773024?start=0#overview
 */
 
 /* PASO 01. CREACIÓN DE TRIGGERS PARA EL UPDATE DE CONTEOS Y SU COMPROBACIÓN DE EFECTIVIDAD
 Iniciar por el trigger para la actualización de seguidores-usuarios */
-
-SET GLOBAL log_bin_trust_function_creators = 1;
 
 DROP TRIGGER IF EXISTS increase_follower_count;
 DELIMITER //

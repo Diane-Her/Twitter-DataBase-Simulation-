@@ -1,10 +1,11 @@
+DROP DATABASE IF EXISTS x_twitter_db;
+CREATE DATABASE x_twitter_db;
+USE x_twitter_db;
 -- CREANDO SIMULACIÓN DE BASE DE DATOS X_TWITTER. PARTE 01. 
 
 /*PASO 01. CREAR LA BASE DE DATOS E INGRESAR A ELLA. */
 
-DROP DATABASE IF EXISTS x_twitter_db;
-CREATE DATABASE x_twitter_db;
-USE x_twitter_db;
+
 
 /* PASO 02. CREACIÓN DE LA TABLA DE USUARIOS. 
 Asegurarse de indicar "auto_increment" para la columna de user_id,
