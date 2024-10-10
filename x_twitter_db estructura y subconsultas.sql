@@ -1,18 +1,4 @@
--- CREANDO SIMULACIÓN DE BASE DE DATOS X_TWITTER
-
-/* El proyecto consiste en dos partes: 
-1. La creación de la estructura básica de la base de datos: tablas de usuarios, seguidores y tweets.  Y la creación de consultas
-   para la recuperación de información deseada de la base de datos.
-   eL script puede ejecutarse completo en una sola ejecución, sin embargo para poder revisar cada proceso se recomienda ejecutarse por pasos.
-   Fuente de información: https://www.youtube.com/watch?v=96s2i-H7e0w&t=1s
-   
-2. La Creación de procesos almacenados y triggers para mantener actualizada la base de datos.
-   Fuente de Información: https://www.udemy.com/course/sql-para-analisis-de-datos-de-cero-a-experto/learn/lecture/40773024?start=0#overview
-*/
-
-/*
- PARTE 01. 
-*/
+-- CREANDO SIMULACIÓN DE BASE DE DATOS X_TWITTER. PARTE 01. 
 
 /*PASO 01. CREAR LA BASE DE DATOS E INGRESAR A ELLA. */
 
